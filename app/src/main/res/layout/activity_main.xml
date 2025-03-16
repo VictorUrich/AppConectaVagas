@@ -1,47 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:background="@color/dark_blue"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txtTituloApp"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/app_name"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:gravity="center">
-    </TextView>
+        android:orientation="vertical"
+        android:padding="20dp">
 
-    <EditText
-        android:id="@+id/edtTituloVaga"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:maxWidth="488dp"
-        android:hint="@string/hint_titulo_vaga"
-        android:inputType="text"
-        android:autofillHints="none">
-    </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            />
 
-    <EditText
-        android:id="@+id/edtDescricaoVaga"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:maxWidth="488dp"
-        android:hint="@string/hint_descricao_vaga"
-        android:inputType="textMultiLine"
-        android:gravity="top"
-        android:padding="8dp"
-        android:autofillHints="none">
+        <EditText
+            android:id="@+id/edtTitulo_Vaga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/hint_titulo_vaga"
+            android:padding="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"/>
 
-    </EditText>
+        <EditText
+            android:id="@+id/edtDescricao_Vaga"
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:layout_height="200dp"
+            android:hint="@string/hint_descricao_vaga"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start"
+            android:background="@color/white"/>
 
+        <EditText
+            android:id="@+id/edtRequisitos_Vaga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:hint="@string/hint_requisitos_vaga"
+            android:padding="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"/>
 
-
-</LinearLayout>
+        <Button
+            android:id="@+id/btnCadastrar_Vaga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_cadastrar_vaga"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="30dp"/>
+    </LinearLayout>
+</ScrollView>

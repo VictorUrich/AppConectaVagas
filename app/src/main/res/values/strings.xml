@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ConectaVagas - Admin</string>
+    <string name="btn_cadastrar_vaga"> Cadastrar Vaga</string>
     <string name="hint_titulo_vaga">Título da Vaga</string>
     <string name="hint_descricao_vaga">Descrição da Vaga</string>
+    <string name="hint_requisitos_vaga">Empresa/Requisitos</string>
 </resources>
