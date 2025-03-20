@@ -3,5 +3,11 @@
     <string name="btn_cadastrar_vaga"> Cadastrar Vaga</string>
     <string name="hint_titulo_vaga">Título da Vaga</string>
     <string name="hint_descricao_vaga">Descrição da Vaga</string>
-    <string name="hint_requisitos_vaga">Empresa/Requisitos</string>
+    <string name="hint_requisitos_vaga">Requisitos</string>
+    <string name="hint_nomeEmpresa">Empresa</string>
+    <string name="hint_localizacao">Localização</string>
+    <string name="hint_contato">Contato</string>
+
+
+
 </resources>
