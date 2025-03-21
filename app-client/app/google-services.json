@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097027095450",
+    "project_id": "conectavagas-db747",
+    "storage_bucket": "conectavagas-db747.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097027095450:android:1d9e63d8f33b51c3a10823",
+        "android_client_info": {
+          "package_name": "com.example.appestagioclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwvRghSHtM5m0KMbPkvCbckA4JN7pmtXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097027095450:android:fd31eca5fdc1e594a10823",
+        "android_client_info": {
+          "package_name": "com.example.appestagionovo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwvRghSHtM5m0KMbPkvCbckA4JN7pmtXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
