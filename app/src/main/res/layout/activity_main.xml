@@ -72,5 +72,6 @@
             android:padding="15dp"
             android:backgroundTint="@color/blue"
             android:layout_margin="30dp"/>
+
     </LinearLayout>
 </ScrollView>

@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<network_security_config xmlns:android="http://schemas.android.com/apk/res/android">
-  
-</network_security_config>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+    <domain-config cleartextTrafficPermitted="true">
+    <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+         <domain includeSubdomains="true">192.168.15.6</domain>
+    </domain-config>
+
+</network-security-config>
